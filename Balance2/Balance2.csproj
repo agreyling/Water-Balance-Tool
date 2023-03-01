@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Wpf.Core" Version="22.1.*-*" />
+    <PackageReference Include="devexpress.wpf.spreadsheet" Version="22.1.6" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="22.1.*-*" />
+  </ItemGroup>
+
+</Project>
